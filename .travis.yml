@@ -11,13 +11,13 @@ matrix:
       compiler: gcc
 
     - env: BATTLESHIP_PLATFORM='windows32'
-      os: linux
+      os: windows
       dist: trusty
       sudo: required
       compiler: gcc
 
     - env: BATTLESHIP_PLATFORM='windows64'
-      os: linux
+      os: windows
       dist: trusty
       sudo: required
       compiler: gcc
